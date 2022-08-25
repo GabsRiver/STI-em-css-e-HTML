@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none; 
+}
+
+a {
+    text-decoration: none;
+    color: #FFF2E7;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #fb1f1f 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.image-cabecalho {
+    height: 4.5rem;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 2rem;    
+}
+
+/* faixa */
+.conteudo {
+    margin-bottom: 3rem;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.cabelho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #1C1C1C;
+    font-size: 1.2rem;
+}
+
+/* ___ Conteudo Principal ___*/
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;    
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #000000;
+    font-size: 3.5rem;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #363636;
+    font-size: 1.5rem;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+/* Botão */
+.conteudo-principal-botao{
+    width: 11rem;
+    height: 4.18rem;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    border: none;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #2F2325;
+    background: #ECD6C4;
+}
+
+.conteudo-principal-image {
+    height: 20rem;
+    padding-top: 2rem;
+}
+
+/*_____ Conteudo Secundario ____*/
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 4rem;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 1.5;
+    color: #000000;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #2F2325;
+}
+
+/*______ FLoat_____*/
+.rodape {
+    margin-bottom: 3rem;
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.rodape-image {
+    height: 5rem;
+}
+
+.rodapeicon {
+    align-items: center;
+    font-size: 3rem;
+}
+
+/* ---------------------------- About Us ------------------------- */
+
+/* faixa */
+.aboutus {
+    margin-bottom: 3rem;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-fami {
+    height: 20rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+.textoo {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.text-main {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.sub {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #2F2325;
+}
+
+/* ---------------------------- About Us ------------------------- */
+
+.livros {
+    margin-bottom: 3rem;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.livros-apos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.livro-um {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.foto-livro-1 {
+    height: 30rem;
+    margin-top: 3rem;
+}
+
+.titlo-book {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.p-book {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #2F2325;
+}
+
+.livro-dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.foto-livro-2 {
+    height: 40rem;
+    margin-top: 3rem;
+}
+
+.livro-tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.foto-livro-3 {
+    height: 30rem;
+    margin-top: 3rem;
+}
+
+/* ---------------------------- Calendário ------------------------- */
+
+.cale {
+    margin-bottom: 3rem;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.libe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 1rem;   
+}
+
+.libert {
+    margin-top: 3rem;
+    height: 30rem;
+}
+
+.stijo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 1rem;
+}
+
+.stijo-i {
+    margin-top: 3rem;
+    height: 30rem;
+}
+
+.btnins {
+    border: none;
+}
